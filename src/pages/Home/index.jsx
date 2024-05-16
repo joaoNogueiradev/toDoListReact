@@ -1,6 +1,14 @@
+import { styled } from "styled-components";
+import Header from "../../components/Header";
+
+const HomeContainer = styled.section``
+
 const Home = () => {
-    return ( 
-       <h1>Home</h1> 
+    return (
+        <HomeContainer>
+            <Header/>
+            <h1>Home</h1> 
+        </HomeContainer> 
     );
 }
  
